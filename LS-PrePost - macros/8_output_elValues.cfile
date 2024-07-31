@@ -1,0 +1,52 @@
+$ run as: "lsprepost c=8_output_elValues.cfile" (with graphics), (without graphics are all results output as zero, why?)
+
+openc d3plot "d3plot"
+ac
+
+parameter elID1 5701
+parameter elIDx 1
+
+genselect element add solid &elID1/F4/0 
+ident element H&elID1/0;
+
+newplot
+
+$ epsp
+fringe 7
+pfringe
+addplot
+stime
+
+$ undmg acc plastic strain
+fringe 94
+pfringe
+addplot 
+stime
+
+$ triax
+fringe 520
+pfringe
+addplot 
+stime
+
+$ Lode
+fringe 525
+pfringe
+addplot 
+stime
+
+$ damage hsv#9
+fringe 89
+pfringe
+addplot
+stime
+
+$ failure indicator
+fringe 97
+pfringe
+addplot 
+stime
+
+xyplot 1 savefile curve_file "9_data_&elIDx-&elID1" 1 all
+
+exit

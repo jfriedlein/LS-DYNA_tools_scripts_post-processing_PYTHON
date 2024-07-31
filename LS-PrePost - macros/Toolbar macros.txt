@@ -1,0 +1,41 @@
+// update d3
+state 1
+update d3plot
+state -1000
+
+// fringe hsv#2=82; triax=520
+fringe 82
+pfringe
+
+// plot_pdTL
+newplot
+stime
+fringe 89
+pfringe
+addplot 
+stime
+fringe 520
+pfringe
+addplot 
+stime
+fringe 525
+pfringe
+addplot 
+stime
+fringe 7
+pfringe
+addplot 
+stime
+
+// secFor-CV
+ascii secforc uload
+ascii secforc open "secforc" 0
+ascii secforc plot 2 Sec-1
+
+// transparent
+postmodel transparent 0.5 all
+
+// View
+view select View_01 1 1 1
+view create View_01
+

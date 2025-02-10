@@ -8,13 +8,12 @@ except:
     pass
 
 import numpy as np
-from scipy.linalg import sqrtm
 import sys
 from io import StringIO
 from math import atan, degrees, sin, cos
 import time
 
-input_filename = '9_results_CV2D_K5_mP-uD_M1_cut_3D'
+input_filename = '/calculate2/iwtm41_lokal2/LS-Dyna/MechanicalJoining/Clinching/2D_V4/01_lagmap3D/9_results_CV2D_K1_mP-uD_20um_B1_V241205_M1_coarsened_3D'
 hisv_in = 47
 hisv_out = hisv_in
 

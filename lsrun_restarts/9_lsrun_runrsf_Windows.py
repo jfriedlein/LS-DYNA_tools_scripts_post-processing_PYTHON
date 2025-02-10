@@ -44,7 +44,7 @@ memoryLeak_phrase = 'ntdll.dll          00007FFA0FFC26B1  Unknown               
 # Collect the folder(s) with the simulation(s) to be run
 folder_list = []
 
-folder_list.append(['01_local_environment','D:\LSD\executables\ls-dyna_smp_d_R13_2981-g413ab0ffba_winx64_ifort190_lib_defoGradFix__UX_V1035_A05.exe'])
+folder_list.append(['01_local_environment','lsdyna.exe'])
 
 
 # Clear content of logfile

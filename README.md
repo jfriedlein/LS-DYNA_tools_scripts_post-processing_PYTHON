@@ -3,3 +3,6 @@ tools, scripts, and helpers for post-processing of LS-DYNA input/output/keyword 
 
 ## HEALTH WARNING
 Currently just a selection of a new Python scripts to help with LS-DYNA. Proper documentation, clean-up, and restructuring should follow.
+
+plot_LSD_convR:
+- requires "nlprint=2"
